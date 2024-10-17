@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Better HR Employees</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS Files -->
+  <link href="stuff/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="stuff/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- ======= First Sidebar ======= -->
+<aside id="first-sidebar" class="first-sidebar d-flex flex-column">
+<ul class="first-sidebar-nav" id="first-sidebar-nav">
+    <li class="nav-item2">
+      <a class="nav-link " href="#">
+        <img src="image/betterhrlogo.png" class="img-fluid" id="logo">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <i class="bi bi-display"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <i class="bi bi-briefcase"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="">
+        <i class="bi bi-calendar-plus"></i>
+      </a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="">
+        <i class="bi bi-person-fill"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="">
+        <i class="bi bi-arrow-repeat"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <i class="bi bi-bell-fill"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <i class="bi bi-credit-card"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <i class="bi bi-chat-left-dots"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="" id="more">
+        <i class="bi bi-three-dots"></i><span>More</span>
+      </a>
+    </li>
+  </ul>
+
+<ul class="first-sidebar-nav" id="first-sidenav-footer">
+  <li class="nav-item">
+      <a class="nav-link" href="">
+      <i class="bi bi-file-earmark-arrow-down"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+      <i class="bi bi-chat-right-heart"></i>
+      </a>
+    </li>
+    <li class="nav-item2">
+      <a class="nav-link" href="">
+      <img src="image/profile.jpg" class="img-fluid" alt="avatar" id="profile">
+      </a>
+    </li>
+  </ul>
+  
+</aside>
+<!-- End Sidebar-->
+
+
+<!-- ======= Second sidemenu ======= -->
+<container id="sidemenu" class="sidemenu d-flex flex-column">
+  <h3>Employees</h3>
+  <ul class="sidemenu-nav" id="sidemenu-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="">
+      Directory
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+      Update Request
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+      Reporting Lines
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+      Department Structures
+      </a>
+    </li>
+  </ul>
+</container>
+
+<!-- Second Sidemenu-->
+
+
+
+<!-- Employee List -->
+<main id="main" class="main">
+<div class="pagetitle d-flex justify-content-center">
+    <div class="find">
+        <i class="bi bi-arrow-left toggle-sidebar-btn"></i>
+        <span>Employee Directory</span>
+        <i class="bi bi-funnel-fill"></i>
+        <i class="bi bi-search"></i>
+        <div class="vr"style="display: none;"></div>
+        <i class="bi bi-pencil-fill" id="pencil-icon" style="display: none;"></i>
+    </div>
+    <div class="add d-flex align-items-center">
+        <button>Create Employee</button><i class="bi bi-three-dots-vertical"></i>
+    </div>
+</div>
+  <hr>
+
+  <div class="table-container">
+  <div class="fixed-column">
+    <table class="fixed-table table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"><label><input type="checkbox" class="employee-checkbox" id="custom-checkbox" name="select-all"><span></span> Employees</label></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Ye Min Htun</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Kyi Sin Hsu Thar</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Myat The chit</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Walter</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Devi</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Pikachu</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Wilson</label></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" class="employee-checkbox" name="select"><span></span><img src="image/profile2.png" class="img-fluid" alt="avatar" id="profile"> Biden</label></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="scrollable-columns">
+    <table class="main-table table table-striped table-hover" id="main-table">
+      <thead>
+        <tr>
+          <th scope="col">Location</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Department</th>
+          <th scope="col">Employee Code</th>
+          <th scope="col">Custom tags</th>
+          <th scope="col">Positions</th>
+          <th scope="col">NRC</th>
+          <th scope="col">Manager</th>
+          <th scope="col">Manager Position</th>
+          <th scope="col">Joined Date</th>
+          <th scope="col">Terminate Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td class="dptedit">Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Yangon Office</td>
+          <td>ye@better.hr</td>
+          <td>+950000000</td>
+          <td>Product Department</td>
+          <td>004-342</td>
+          <td>Intern</td>
+          <td>UX Designer</td>
+          <td>12/00000000</td>
+          <td>Myo Zaw Hein</td>
+          <td>CEO</td>
+          <td>12.2.2021</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-6"></div>
+  <div class="dropdown col-2">
+  <a class="btn border border-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    50/pages
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Page No.</a></li>
+    <li><a class="dropdown-item" href="#">Page No.</a></li>
+    <li><a class="dropdown-item" href="#">Page No.</a></li>
+  </ul>
+</div>
+<div class="page col-2">
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="Previous">
+        <i class="bi bi-chevron-left"></i>
+      </a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <i class="bi bi-chevron-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+  <div class="pageno col-2">
+    Go to 
+    <input type="text" class="form-control form-control-sm d-inline-block" value="1" style="width: 40px; text-align:center">
+  </div>
+</div>
+</main>
+
+
+
+  <!--JS Files-->
+  <script src="stuff/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="stuff/dist/jquery.min.js"></script>
+
+  <!-- after login JS File -->
+  <script src="js/main.js"></script>
+<script>
+$(document).ready(function() {
+  const $scrollableDiv = $('.scrollable-columns');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  $scrollableDiv.on('mousedown', function(e) {
+    isDown = true;
+    $scrollableDiv.addClass('active');
+    startX = e.pageX - $scrollableDiv.offset().left;
+    scrollLeft = $scrollableDiv.scrollLeft();
+  });
+
+  $scrollableDiv.on('mouseleave mouseup', function() {
+    isDown = false;
+    $scrollableDiv.removeClass('active');
+  });
+
+  $scrollableDiv.on('mousemove', function(e) {
+    if (!isDown) return; // Stop the function if we're not holding down the mouse
+    e.preventDefault(); // Prevent text selection
+    const x = e.pageX - $scrollableDiv.offset().left;
+    const walk = (x - startX) * 2; // Adjust multiplier for speed
+    $scrollableDiv.scrollLeft(scrollLeft - walk);
+  });
+});
+
+
+
+
+// Suggestion text input
+
+  const departmentList = [
+    "Marketing",
+    "Quality Assurance",
+    "Customer Service",
+    "Human Resources",
+    "Development",
+    "Product"
+  ];
+
+  let originalValue = $(".dptedit").text();
+
+  $(".dptedit").on("click", function() {
+    if (!$(this).find('input').length) {
+      const $input = $('<input type="text" class="dept-input" />').val(originalValue);
+      const $suggestionBox = $('<div class="suggestion-box"></div>'); // Create a suggestion box
+      $(this).empty().append($input).append($suggestionBox);
+      $input.focus();
+
+      $input.on("input", function() {
+        showSuggestions($(this), departmentList, $suggestionBox);
+      });
+
+      $input.on("blur", function() {
+        const inputValue = $input.val().trim();
+        if (inputValue === "") {
+          $(this).parent().text(originalValue);
+        } else {
+          originalValue = inputValue;
+          $(this).parent().text(originalValue);
+        }
+        $suggestionBox.empty(); // Clear suggestions on blur
+      });
+
+      $input.on("keypress", function(e) {
+        if (e.which === 13) {
+          $(this).blur();
+        }
+      });
+    }
+  });
+
+  function showSuggestions($input, departmentList, $suggestionBox) {
+    const inputValue = $input.val().toLowerCase();
+    const suggestions = departmentList.filter(dept => dept.toLowerCase().includes(inputValue));
+    $suggestionBox.empty(); // Clear previous suggestions
+
+    suggestions.forEach(suggestion => {
+      const $suggestionItem = $("<div></div>").text(suggestion);
+
+      if (suggestion.toLowerCase().startsWith(inputValue)) {
+        $suggestionItem.css("color", "#1Ef292"); // Closest match highlighted
+      }
+
+      $suggestionItem.on("click", function() {
+        $input.val(suggestion); 
+        $suggestionBox.empty(); // Clear suggestions
+      });
+
+      $suggestionBox.append($suggestionItem);
+    });
+
+    if (suggestions.length === 0) {
+      $suggestionBox.empty(); // Clear if no suggestions
+    }
+  }
+
+
+$('.employee-checkbox').change(function() {
+    if ($(this).is(':checked')) {
+        $(this).closest('tr').addClass('checked-row');
+        $('#pencil-icon').show();
+        $('.vr').show();
+    } else {
+        $(this).closest('tr').removeClass('checked-row');
+        if ($('.employee-checkbox:checked').length === 0) {
+            $('#pencil-icon').hide();
+            $('.vr').hide();
+
+        }
+    }
+});
+
+$('input[name="select"]').change(function() {
+  if (!this.checked) {
+    $('#custom-checkbox').prop('checked', false);
+  }
+
+  if ($('input[name="select"]:checked').length === $('input[name="select"]').length) {
+    $('#custom-checkbox').prop('checked', true);
+  }
+});
+
+$('#custom-checkbox').change(function() {
+  const headerLabel = $(this).parent();
+
+  if (this.checked) {
+    headerLabel.addClass('checked-header').removeClass('unchecked-header');
+    $('input[name="select"]').prop('checked', true);
+    $('tr').addClass('checked-row');
+  } else {
+    headerLabel.addClass('unchecked-header').removeClass('checked-header');
+    $('input[name="select"]').prop('checked', false);
+    $('tr').removeClass('checked-row');
+  }
+});
+
+$('#custom-checkbox').click(function() {
+  
+  if ($('input[name="select"]:checked').length > 0) {
+    $('input[name="select"]').prop('checked', false);
+    $(this).prop('checked', false);
+    $(this).parent().addClass('unchecked-header').removeClass('checked-header');
+    $('tr').removeClass('checked-row');
+  }
+
+
+});
+
+
+
+</script>
+
+</body>
+</html>
